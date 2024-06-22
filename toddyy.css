@@ -1,0 +1,497 @@
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+.aa
+{
+	height:50px; 
+	width:350px; 
+	align:right; 
+	padding-left:150px;
+	margin:15px; 
+}
+.as{
+	height:700px;
+	width;100%;
+}
+.rw{
+	background-color:#ffffe0;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+/* Should be removed. Only for demonstration */
+}
+
+.t1{
+	padding:150px;
+	word-spacing:1px;
+}
+.t2{
+	padding:150px;
+	font-size:18px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.t3{
+	  float: left;
+  width: 33.333%;
+/* Should be removed. Only for demonstration */
+}
+.t4{
+	background-color:#fffff2;
+}
+.t5{
+	width: 45px; background-color:gold; height: 3px;
+}
+.t6{
+	
+}
+.t7{
+	padding-left:200px;padding-top:10px; padding-bottom:10px;
+}
+.t8{
+	background-color:#fffff2;padding-left:20px;padding-top:10px; padding-bottom:10px;
+}
+.t10{
+	border-radius:25px; border:2px solid black; padding:20px; width:350px; height:270px;
+}
+.t11{
+	background-color:#fffff2;padding-left:20px; padding-top:10px; padding-bottom:10px;padding-right:10px;
+}
+.t12{
+	border-radius:25px; border:2px solid black; padding:20px; width:365px; height:270px;
+}
+.t13{
+	width: 50px; background-color:gold; height: 5px;
+}
+.t14{
+	padding:150px; padding-top: 50px;
+}
+.t15{
+	width:80%;padding-top:40px;padding-left:30px;"
+}
+.t16{
+	padding:150px; padding-top: 50px;padding-bottom:10px;
+}
+.t17{
+	padding:150px; padding-top: 50px;text-align: justify;text-justify: inter-word;padding-bottom:50px;font-size:18px;
+}
+.t18{
+	 background-image: url('Untitled-11.png'); height: 510px;width:100%;
+}
+.t19{
+	height:500px; padding-left:150px; padding-top:10px;
+}
+.t20{
+	height:500px; padding-left:0px; padding-top:10px;
+}
+.t25{
+	float: left;
+	width: 33.333%;
+/* Should be removed. Only for demonstration */
+}
+.t21{
+	background-color:white; height:470px; margin-left:90px; margin-top:10px;
+}
+.t22{
+	 width:100px; height:100px; padding-left:5px;
+}
+.t23{
+	padding-left:100px;
+}
+.t24{
+	
+	float: left;
+	width: 50%;
+}
+.t26{
+	padding:250px;padding-top:100px;padding-bottom:50px;
+}
+.t27{
+	width: 50px; background-color:gold; height: 5px;
+}
+.t271{
+	font-size:60px;
+}
+.t28{
+	font-size:18px; color:brown;padding-left:100px;
+}
+.t29{
+	font-size:18px; color:brown;
+}
+.t30{
+	text-decoration: none; color:black;
+}
+.t31{
+	padding-top:20px; font-size:30px;padding-left:100px;
+}
+.t32{
+	padding-left:100px;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+.t33{
+	background-color:#662200;
+}
+.t34{
+	padding-bottom:200px;
+}
+.t35{
+	color:white;padding-bottom:60px;
+}
+.t36{
+	padding:150px;padding-top:100px;padding-bottom:50px;
+}
+.t37{
+	width: 50px; background-color:gold; height: 5px;
+}
+.t38{
+	font-size:50px;
+}
+.t39{
+	padding-left:150px;padding-top:140px;padding-bottom:50px; padding-right:180px;
+}
+.t40{
+	 width:100%;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+
+
+
+
+
+
+.card{
+  padding:0;
+  
+}
+.card-wrapper{
+	background-color: rgba(57, 62, 93, 0.7);
+	padding: 0;
+	overflow: hidden;
+	max-width: 350px;
+	margin: 5px;
+	
+  
+}
+.card-wrapper:hover{
+	 box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.img-fluid shadow-lg p-0 mb-5 bg-white rounded:hover{
+	box-shadow: 10px 10px 10px red;
+}
+
+      .hover-effect:hover {
+        border-radius:25px; border:2px solid red; padding:20px; width:350px; height:250px;
+      }
+    .a{
+		 height:210px;
+		 width:380px;
+		 padding-left:100px;
+		 transition:transform .2s;
+	}
+	  
+		.a:hover{
+					transform: scale(1.15); 
+				}
+ 
+		.c{
+					text-decoration:none;
+					color:black;
+				}
+
+
+		.c:hover{
+					text-decoration:none;
+					color: gold;
+				}
+ 
+ nav.sticky{
+			position: fixed;
+			top: 0;
+			left: 0;
+			padding: 10px 8%;
+			background: #000;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			transition: padding 1s;
+			}
+
+nav.sticky ul{
+			width: auto;
+}
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 20px;
+  background: white;
+  color: black;
+  font-size: 20px;
+  border: 0px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.slider{
+  max-width: 1100px;
+  display: flex;
+}
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+.slider .card .img{
+  height: 200px;
+  width: 100%;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .content{
+  padding: 10px 20px;
+}
+.card .content .title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.card .content .sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #e74c3c;
+  line-height: 20px;
+}
+.card .content p{
+  text-align: justify;
+  margin: 10px 0;
+}
+.card .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card .content .btn button{
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card .content .btn button:hover{
+  transform: scale(0.9);
+}
+.col-md{
+	position:absolute;
+	display:inline-block;
+}
+.abc{
+	text-decoration:none; 
+	color:white;
+	padding-left:250px; 
+	padding-top:0px;
+	font-size:15px;
+	display:inline-block;
+	}
+.abc:hover{
+	color:gold;
+	text-decoration:none;	
+	}
+.arrow {
+  border: solid gold;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+	}
+.ab{
+	border: 1px solid #ddd;
+	border-radius: 4px;
+
+}
+.ab:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	}
+.collapsible {
+	
+		  background-color: transparent;
+		  color: #804000;
+		  cursor: pointer;
+		  padding: 18px;
+		  width: 100%;
+		  border: none;
+		  text-align: left;
+		  outline: none;
+		  font-size: 15px;
+		}
+
+		.active, .collapsible:hover {
+		  background-color: transparent;
+		}
+
+		.content {
+		  padding: 0 18px;
+		  display: none;
+		  overflow: hidden;
+		  background-color: transparent;
+		  border:0px solid black;
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		.r{
+			  border: solid #804000;
+			  border-width: 0 3px 3px 0;
+			  display: inline-block;
+			  padding: 3px;
+			  transform: rotate(-45deg);
+			  -webkit-transform: rotate(-45deg);
+		}
+		.r:hover{
+			  border: solid #804000;
+			  border-width: 0 3px 3px 0;
+			  display: inline-block;
+			  padding: 3px;
+			  transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+		}
+.a11 {
+		  background-color: transparent;
+		  color: #804000;
+		  cursor: pointer;
+		  padding: 18px;
+		  width: 100%;
+		  border: none;
+		  text-align: left;
+		  outline: none;
+		  font-size: 15px;
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+.b11, .collapsible:hover {
+   background-color: transparent;
+}
+
+		.c11{
+			  padding: 0 18px;
+			  display: none;
+			  overflow: hidden;
+			  background-color: transparent;
+			  border:0px solid black;
+			  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+		
+		/* Dropdown Button */
+				.dropbtn {
+				  background-color: transparent;
+				  color: black;
+				  padding: 16px;
+				  font-size: 15px;
+				  border: none;
+				}
+
+				/* The container <div> - needed to position the dropdown content */
+				.dropdown {
+				  position: relative;
+				  display: inline-block;
+				}
+
+				/* Dropdown Content (Hidden by Default) */
+				.dropdown-content {
+				  display: none;
+				  position: absolute;
+				  background-color: white;
+				  min-width: 160px;
+				  box-shadow: 1px 8px 16px 10px rgba(0,0,0,0.2);
+				  z-index: 1;
+				}
+
+				/* Links inside the dropdown */
+				.dropdown-content a {
+				  color: black;
+				  padding: 5px 16px;
+				  text-decoration: none;
+				  display: block;
+				}
+
+				/* Change color of dropdown links on hover */
+				.dropdown-content a:hover {background-color: transparent; color:black; text-decoration:none;border: solid gold;border-width: 1px 1px 1px 1px; display: inline-block;}
+
+				/* Show the dropdown menu on hover */
+				.dropdown:hover .dropdown-content {display: block;text-decoration:none;}
+
+				/* Change the background color of the dropdown button when the dropdown content is shown */
+				.dropdown:hover .dropbtn {background-color: transparent; color:gold;}
+
+
+
